@@ -1,0 +1,244 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  display: flex;
+  flex-direction: row;
+}
+header > img {
+  padding: 31px 548px 31px 168px;
+}
+header > button {
+  width: 146px;
+  height: 40px;
+  border: 1.5px solid #2c2830;
+  background: #fff;
+  margin: 21px 165px 19px 0;
+  color: #2c2830;
+  text-align: center;
+  font-family: "Karla";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.5px;
+}
+header > button:hover {
+  color: #fff;
+  background-color: #2c2830;
+  transition: 0.5s;
+}
+header > button:active {
+  color: #fff;
+  background-color: #2c2830;
+}
+header > p {
+  padding: 34px 25px 32px 0;
+  color: #837d88;
+  text-align: center;
+  font-family: "Karla";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.5px;
+}
+header > p:hover {
+  color: #2c2830;
+  transition: 0.5s;
+}
+.underHead {
+  width: 100%;
+  height: 600px;
+  background: #2d2641;
+  padding-left: 165px;
+}
+.underHead > h1 {
+  width: 500px;
+  height: 140px;
+  color: #fff;
+  font-family: "DM Serif Display";
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 400;
+  padding-top: 60px;
+}
+.underHead > p {
+  width: 500px;
+  height: 84px;
+  color: #7c7c7c;
+  font-family: "Karla";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  padding-top: 100px;
+}
+.family {
+  position: absolute;
+  left: 750px;
+  top: 170px;
+}
+.line {
+  padding-top: 100px;
+}
+.underHead > button {
+  top: 520px;
+  position: absolute;
+  width: 146px;
+  height: 40px;
+  background-color: #2d2641;
+  color: #fff;
+  border: 2px solid white;
+}
+.underHead > button:hover {
+  background-color: #fff;
+  color: #2d2641;
+  transition: 0.5s;
+}
+.underHead > button:active {
+  background-color: #fff;
+  color: #2d2641;
+}
+.middle > h1 {
+  width: 717px;
+  height: 64px;
+  color: #2c2830;
+  font-family: "DM Serif Display";
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 64px;
+}
+.first > p {
+  width: 350px;
+  height: 78px;
+  color: #837d88;
+  font-family: "Karla";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+.second > p {
+  width: 350px;
+  height: 78px;
+  color: #837d88;
+  font-family: "Karla";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+.third > p {
+  width: 350px;
+  height: 78px;
+  color: #837d88;
+  font-family: "Karla";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+.features {
+  display: flex;
+  padding-top: 96px;
+  padding-bottom: 158px;
+  gap: 30px;
+}
+.middle {
+  padding-top: 305px;
+  padding-left: 165px;
+}
+.firstH1 {
+  padding-top: 63px;
+}
+.more {
+  width: 1110px;
+  height: 250px;
+  background: #2d2641;
+  gap: 314px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 165px;
+  padding-left: 165px;
+}
+.more > button {
+  width: 160px;
+  height: 40px;
+  border: 1.5px solid #fff;
+  background: none;
+  color: #fff;
+  position: absolute;
+  left: 850px;
+}
+.but > button:hover {
+  background-color: #fff;
+  color: #2d2641;
+  transition: 0.5s;
+}
+.more > h1 {
+  color: #fff;
+  font-family: "DM Serif Display";
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 56px;
+  width: 475px;
+  height: 112px;
+}
+.top{
+   margin-top: 67px;
+}
+.bottom{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+   padding: 87px 165px 64px 165px;
+}
+.company > button{
+    margin-bottom: 36px;
+    outline: none;
+    border: none;
+}
+.company > p{
+    margin-top: 16px;
+}
+.help > p{
+    margin-top: 16px;
+}
+.contact > p{
+    margin-top: 16px;
+}
+.other > p{
+    margin-top: 16px;
+}
+.help > button{
+    margin-bottom: 36px;
+    outline: none;
+    border: none;
+}
+.contact > button{
+    margin-bottom: 36px;
+    outline: none;
+    border: none;
+}
+.other > button{
+    margin-bottom: 36px;
+    outline: none;
+    border: none;
+}
+.bigLine{
+    padding: 36px 165px 0 165px;
+}
+.socialMedias{
+    margin-left: 1130px;
+}
+.insure{
+    padding-left: 165px;
+}
+.text-decoration{
+    text-decoration: underline;
+}
